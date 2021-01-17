@@ -69,9 +69,8 @@ nav a:hover {
   #projects div {
       max-width:522px;
       background-color:#423E37;
-      margin-bottom: 32px;
+      margin: 24px;
       display: inline-block;
-    
   }
   img {
       width:400px;
@@ -83,10 +82,10 @@ nav a:hover {
      padding-bottom: 32px;
      display: block;
  }
- #projects h1 {
+ #projects h2 {
      padding-bottom: 10px;
  }
- #show {
+ .show {
      background-color: #423E37;
      height: 50px;
      width: 130px;
@@ -94,6 +93,7 @@ nav a:hover {
      font-size: 2rem; 
      margin: 0 auto;
      padding-top:15px;
+     margin-top:50px;
  }
  #contact {
     display: flex;
@@ -128,4 +128,12 @@ footer {
     font-size: 20px;
     border-top: solid white 4px;
     padding-top:20px;  
+}
+.show:hover{
+    background-color: #ECBA82;
+    transition-duration: 2s;
+}
+.projets-links:hover {
+    background-color: #ECBA82;
+    transition-duration: 2s;
 }
